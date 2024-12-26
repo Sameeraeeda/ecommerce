@@ -1,0 +1,39 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header a, footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.home .hero {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.categories, .best-sellers, .stats, .instagram-feed, .newsletter {
+  padding: 2rem;
+  margin: 1rem 0;
+  background-color: #fff;
+}
+
+.category-list, .best-sellers-list {
+  display: flex;
+  justify-content: space-around;
+}

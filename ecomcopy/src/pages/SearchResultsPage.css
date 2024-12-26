@@ -1,0 +1,126 @@
+/* General styling for the search results page */
+.search-results-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 3px 8px;
+  height: 30px;
+}
+
+.search-bar input {
+  width: 600px;
+  padding: 10px;
+  border: 1px solid #010101;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: 3#070809;
+  color: rgb(2, 1, 1);
+  border: 1px solid #010102;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-bar button:hover {
+  background-color:black;
+}
+
+/* Loading Indicator and Error Message */
+.loading-indicator,
+.error-message {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0;
+  color: rgb(11, 10, 10);
+}
+
+/* No results message */
+.no-results {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0;
+  color: #555;
+}
+
+/* Grouped Recommendations Section */
+.grouped-recommendations {
+  margin-top: 20px;
+}
+
+.rating-group {
+  margin-bottom: 30px;
+}
+
+.rating-group h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: left;
+  color: #333;
+}
+
+/* Grid Layout for Products */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual Product Card */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image Styling */
+.product-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Product Title */
+.product-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Similarity Score or Rating */
+.product-score {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Price Display (if applicable) */
+.product-price {
+  font-size: 16px;
+  color: #007bff;
+  font-weight: bold;
+}

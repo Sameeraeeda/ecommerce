@@ -1,0 +1,106 @@
+/* General header styling with background image */
+.landing-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-size: cover;
+    background-position: center;
+    color:#030303;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Merriweather', serif;
+}
+
+.logo a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #030303;
+}
+
+/* Navigation links */
+.nav-links {
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    justify-content: space-between;
+    color:#030303 ;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color:white;
+}
+
+/* Search bar styling */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 3px 8px;
+    height: 30px;
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #333;
+    width: 120px;
+    font-size: 12px;
+}
+
+.search-icon-btn {
+    background: none;
+    border: none;
+    color: #e92aa3;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.search-icon-btn svg {
+    width: 12px;
+    height: 12px;
+}
+
+.search-icon-btn:hover {
+    color: #333;
+}
+
+/* Account button styling */
+.account-icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: rgb(15, 14, 14);
+    cursor: pointer;
+    padding: 0;
+}
+
+.account-icon-btn svg {
+    width: 45px;
+    height: 45px;
+}
+
+.account-icon-btn:hover {
+    color:white;
+}
+
+/* Icons container styling */
+.header-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a, .account-button {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.account-menu {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 120px;
+  z-index: 1000;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  background-color: #f1f1f1;
+}
+.header {
+  display: flex;
+  justify-content: space-between; /* Align logo and nav links */
+  align-items: center; /* Center vertically */
+  background-color: #000; /* Background color for header */
+  color: #fff; /* Text color */
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px; /* Spacing between nav links */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Add hover effect */
+}
